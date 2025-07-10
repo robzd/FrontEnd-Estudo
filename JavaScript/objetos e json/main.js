@@ -52,10 +52,10 @@ console.log(listaobjetos[2].tarefa); //mostrar a tarefa 3
 const { tarefa: nomedatarefa2 } = listaobjetos[2];
 console.log(nomedatarefa2);
 //------------------------------------------------------------------------------------------------------
-//transformação de um objeto em string JSON (serve para mandar dados JSON para uma API / servidor)
+//transformação de uma lista string de objeto em JSON (serve para mandar dados JSON para uma API / servidor)
 //tem que fazer isso por que não tem como mandar um arquivo em forma de JS padrão, precisa converter
 let listaobjetosJSON = JSON.stringify(listaobjetos);
 console.log(listaobjetosJSON);
-//transformação de um objeto em string JSON (serve para pegar dados JSON de uma API / servidor e usar como quiser)
+//transformação de uma lista em JSON para string de objeto(serve para pegar dados JSON de uma API / servidor e usar como quiser)
 listaobjetosJSON = JSON.parse(listaobjetosJSON);
 console.log(listaobjetosJSON);
