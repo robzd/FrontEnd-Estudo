@@ -13,3 +13,9 @@ Live Server - cria um servidor local para a aplicação dentro do próprio VSCod
 
 ## Link da documentação do VueJS:
 https://pt.vuejs.org/guide/introduction.html
+
+## Instalação e rodar (via CLI)
+1. npm install -g @vue/cli
+2. vue create app
+3. cd app
+4. npm run serve
