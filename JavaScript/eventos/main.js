@@ -9,6 +9,8 @@ const formulario = document.querySelector('#my-form');
 
 const body = document.querySelector('body');
 
+
+// OBS: existem vários outros eventos além do click
 botao.addEventListener('click', (e) => {
     e.preventDefault(); // previne o comportamento padrão do botão 
     // (no caso, enviar o formulário e recarregar a página)
